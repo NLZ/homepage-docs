@@ -129,14 +129,14 @@ Services may be connected to a Docker container, either running on the local mac
     - Service A:
         href: http://localhost/
         description: This is my service
-        server: my-server
+        server: my-docker
         container: my-container
 
 - Group B:
     - Service B:
         href: http://localhost/
         description: This is another service
-        server: other-server
+        server: other-docker-server
         container: other-container
 ```
 
